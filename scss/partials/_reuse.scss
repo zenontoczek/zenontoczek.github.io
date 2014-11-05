@@ -1,0 +1,75 @@
+
+// Reusables – Mixins, common classes & components
+// These styles are flexible enough to use across multiple projects
+
+
+
+
+// BUTTONS
+// -------
+
+
+
+
+
+// UTILITIES
+// ---------
+
+
+
+
+
+// TEXT
+// ----
+
+
+
+
+
+// Text Sizing
+
+
+
+
+// Text Utilities
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.weight-normal {
+  font-weight: $normal;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+
+// Fonts
+
+.anchorText {
+  font-family: $anchorText;
+}
+
+.headingText {
+  font-family: $headingText;
+}
+
+
+
+
+// INPUT
+// -----
+
+
+
+
+
+// MISCELLANEOUS
+// -------------
+

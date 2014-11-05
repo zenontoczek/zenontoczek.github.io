@@ -1,0 +1,99 @@
+
+// Layout
+// Define margin, padding, positioning, floating, clearing for high-level HTML elements
+// Skin and specific styles should be defined in design.scss
+
+
+
+
+// HIGH-LEVEL ELEMENTS
+// -------------------
+
+#small-brick-house {
+  padding-top: 60px;
+}
+
+#brick-house {
+  margin: 0 auto;
+  padding: 60px 0 60px 17px;
+  width: 100%;
+  max-width: 940px;
+}
+
+footer {
+  clear: both;
+  padding-bottom: 60px;
+}
+
+.small-thumb {
+  width: 50%;
+  margin-bottom: .9375rem*2;
+}
+
+.brick {
+  float: left;
+
+  @media #{$medium-up} {
+    padding: 10px;
+  }
+}
+
+.brick-small {
+  @media #{$medium-up} {
+    max-width: 150px;
+  }
+
+  @media #{$large-up} {
+    max-width: 150px;
+  }
+}
+
+.brick-tall {
+  @media #{$medium-only} {
+    max-width: 150px;
+  }
+
+  @media #{$large-up} {
+    max-width: 150px;
+
+    img {
+      height: 280px;
+    }
+  }
+}
+
+.brick-medium {
+  @media #{$medium-up} {
+    max-width: 300px;
+  }
+
+  @media #{$large-up} {
+    max-width: 300px;
+  }
+}
+
+.brick-wide {
+  @media #{$medium-up} {
+    max-width: 150px;
+    img {
+      height: 130px;
+    }
+  }
+
+  @media #{$large-up} {
+    max-width: 450px;
+    img {
+      height: 280px;
+    }
+  }
+}
+
+.brick-large {
+  @media #{$medium-up} {
+    max-width: 300px;
+  }
+
+  @media #{$large-up} {
+    max-width: 450px;
+  }
+}

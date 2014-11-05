@@ -1,0 +1,80 @@
+
+// Design.scss
+// Most of the website or application styles will live here
+// Ideally, this file is populated after the prototype is complete.
+
+
+
+// HIGH LEVEL ELEMENTS
+// -------------------
+
+header {
+  border: 1px solid #bcb3b0;
+  border-left: 0;
+  border-right: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #A49E9C;
+  }
+}
+
+.lightboxOverlay {
+  top: -170px;
+}
+
+.lb-outerContainer {
+  margin-top: -170px;
+}
+
+footer {
+  border-top: 1px solid #bcb3b0;
+  padding-top: 20px;
+
+  p {
+    @media #{$small-only} {
+      text-align: center;
+    }
+
+    &.text-right {
+      @media #{$small-only} {
+        text-align: center !important;
+      }      
+    }
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  h4 {
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #A49E9C;
+    margin-bottom: 20px;
+  }
+}
+
+.logo {
+  position: relative;
+  top: 10px;
+}
+
+
+
+// MISCELLANEOUS
+// -------------
+
+.brick img {
+  @include box-shadow(0 4px 4px #ddd);
+  border: 1px solid #fff;
+}
