@@ -3,12 +3,13 @@
 $(document).foundation();
 
 var container = document.querySelector('#brick-house');
-var msnry;
+var msnry = new Masonry( container, {
+	// options
+	columnWidth: 150,
+	itemSelector: '.brick'
+});
+
 // initialize Masonry after all images have loaded
 imagesLoaded( container, function() {
-  msnry = new Masonry( container, {
-  	// options
-	  columnWidth: 150,
-	  itemSelector: '.brick'
-  } );
+  msnry.layout();
 });
