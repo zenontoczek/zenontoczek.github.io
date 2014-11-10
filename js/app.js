@@ -2,16 +2,12 @@
 // Documentation can be found at: http://foundation.zurb.com/docs
 $(document).foundation();
 
-docReady( function() {
-	var container = document.querySelector('#brick-house');
-	var msnry = new Masonry( container, {
-		columnWidth: 150,
-		itemSelector: '.brick'
-	});
-
-	// initialize Masonry after all images have loaded
-	imagesLoaded( container, function() {
-	  msnry.layout();
-	});
-
+// initialize Masonry
+var $container = $('#brick-house').masonry({
+	columnWidth: 150,
+	itemSelector: '.brick'
+});
+// layout Masonry again after all images have loaded
+$container.imagesLoaded( function() {
+  $container.masonry();
 });
