@@ -2222,26 +2222,26 @@ footer {
 @media only screen and (min-width: 30.063em) {
   /* line 40, ../scss/partials/_layout.scss */
   .brick-small {
-    max-width: 150px;
+    width: 150px;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 40, ../scss/partials/_layout.scss */
   .brick-small {
-    max-width: 150px;
+    width: 150px;
   }
 }
 
 @media only screen and (min-width: 30.063em) and (max-width: 64em) {
   /* line 50, ../scss/partials/_layout.scss */
   .brick-tall {
-    max-width: 150px;
+    width: 150px;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 50, ../scss/partials/_layout.scss */
   .brick-tall {
-    max-width: 150px;
+    width: 150px;
   }
   /* line 58, ../scss/partials/_layout.scss */
   .brick-tall img {
@@ -2252,20 +2252,20 @@ footer {
 @media only screen and (min-width: 30.063em) {
   /* line 64, ../scss/partials/_layout.scss */
   .brick-medium {
-    max-width: 300px;
+    width: 300px;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 64, ../scss/partials/_layout.scss */
   .brick-medium {
-    max-width: 300px;
+    width: 300px;
   }
 }
 
 @media only screen and (min-width: 30.063em) {
   /* line 74, ../scss/partials/_layout.scss */
   .brick-wide {
-    max-width: 150px;
+    width: 150px;
   }
   /* line 77, ../scss/partials/_layout.scss */
   .brick-wide img {
@@ -2275,7 +2275,7 @@ footer {
 @media only screen and (min-width: 64.063em) {
   /* line 74, ../scss/partials/_layout.scss */
   .brick-wide {
-    max-width: 450px;
+    width: 450px;
   }
   /* line 84, ../scss/partials/_layout.scss */
   .brick-wide img {
@@ -2286,13 +2286,13 @@ footer {
 @media only screen and (min-width: 30.063em) {
   /* line 90, ../scss/partials/_layout.scss */
   .brick-large {
-    max-width: 300px;
+    width: 300px;
   }
 }
 @media only screen and (min-width: 64.063em) {
   /* line 90, ../scss/partials/_layout.scss */
   .brick-large {
-    max-width: 450px;
+    width: 450px;
   }
 }
 

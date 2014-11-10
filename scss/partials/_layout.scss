@@ -39,21 +39,21 @@ footer {
 
 .brick-small {
   @media #{$medium-up} {
-    max-width: 150px;
+    width: 150px;
   }
 
   @media #{$large-up} {
-    max-width: 150px;
+    width: 150px;
   }
 }
 
 .brick-tall {
   @media #{$medium-only} {
-    max-width: 150px;
+    width: 150px;
   }
 
   @media #{$large-up} {
-    max-width: 150px;
+    width: 150px;
 
     img {
       height: 280px;
@@ -63,24 +63,24 @@ footer {
 
 .brick-medium {
   @media #{$medium-up} {
-    max-width: 300px;
+    width: 300px;
   }
 
   @media #{$large-up} {
-    max-width: 300px;
+    width: 300px;
   }
 }
 
 .brick-wide {
   @media #{$medium-up} {
-    max-width: 150px;
+    width: 150px;
     img {
       height: 130px;
     }
   }
 
   @media #{$large-up} {
-    max-width: 450px;
+    width: 450px;
     img {
       height: 280px;
     }
@@ -89,10 +89,10 @@ footer {
 
 .brick-large {
   @media #{$medium-up} {
-    max-width: 300px;
+    width: 300px;
   }
 
   @media #{$large-up} {
-    max-width: 450px;
+    width: 450px;
   }
 }
